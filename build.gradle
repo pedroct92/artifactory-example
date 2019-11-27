@@ -1,0 +1,71 @@
+buildscript {
+    repositories {
+        jcenter()
+
+    }
+    dependencies {
+        //Check for the latest version here: http://plugins.gradle.org/plugin/com.jfrog.artifactory
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4+"
+    }
+}
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.41'
+}
+
+allprojects {
+    apply plugin: "com.jfrog.artifactory"
+    apply plugin: 'maven-publish'
+}
+
+group 'artifactrory-test-app'
+version '3.2.0'
+
+artifactory {
+    contextUrl = "${artifactory_contextUrl}"   //The base Artifactory URL if not overridden by the publisher/resolver
+    publish {
+        repository {
+            repoKey = version.endsWith('SNAPSHOT') ? 'gradle-dev-local' : 'gradle-release-local'
+            username = "admin"
+            password = "password"
+            maven = true
+
+        }
+        defaults {
+            publications ('mavenJava')
+        }
+    }
+    resolve {
+        repository {
+            repoKey = version.endsWith('SNAPSHOT') ? 'gradle-dev' : 'gradle-release'
+            username = "admin"
+            password = "password"
+            maven = true
+
+        }
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "io.vertx:vertx-core:3.7.1"
+    implementation "io.vertx:vertx-web:3.7.1"
+    testImplementation "junit:junit:4.12"
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+//./gradlew build && ./gradlew artifactoryPublish

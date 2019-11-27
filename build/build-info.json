@@ -1,0 +1,255 @@
+{
+  "version" : "1.0.1",
+  "name" : "example",
+  "number" : "1574883822623",
+  "type" : "GRADLE",
+  "buildAgent" : {
+    "name" : "Gradle",
+    "version" : "5.2.1"
+  },
+  "agent" : {
+    "name" : "Gradle",
+    "version" : "5.2.1"
+  },
+  "started" : "2019-11-27T14:43:42.618-0500",
+  "durationMillis" : 51,
+  "principal" : "pctorres",
+  "artifactoryPrincipal" : "admin",
+  "artifactoryPluginVersion" : "Unknown",
+  "vcs" : [ ],
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "modules" : [ {
+    "id" : "artifactrory-test-app:example:3.2.0",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "76ca713d3837fe6e401efb9a7d90cd2775b5f50d",
+      "md5" : "3edcf8fcd4f7d24382fa8cfe87a712c4",
+      "name" : "example-3.2.0.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "e7b875272b4308e9238c4346a92dff823af0787f",
+      "md5" : "3947c5e8514d55ae1979172edc6d6fe7",
+      "name" : "example-3.2.0.pom"
+    } ],
+    "excludedArtifacts" : [ ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "77652607ed82a49202d8a0b89de16994b61bdd75",
+      "md5" : "529f406fc728896fcab59d80c45b957b",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.41",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "df8e253514b34a24aa7d142bc66a80768de6eeb6",
+      "md5" : "a2a84232a43bc824a5a639d658afb72f",
+      "id" : "io.vertx:vertx-web:3.7.1",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "53de5c096eccd6b01356cd658768eb4a10e7a388",
+      "md5" : "2f51a22f8db34b146bd64ddfe8e6efab",
+      "id" : "io.vertx:vertx-web-common:3.7.1",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "6f02a5ff4059bd1952ceb7a90fb48d04d4c87397",
+      "md5" : "6adcebb7e506ca6bda27b64dc76981e9",
+      "id" : "io.vertx:vertx-auth-common:3.7.1",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "1530667b02c1b7edf0e495dbf5df0c00a591950d",
+      "md5" : "0ab04cda59faf6f6b6cbafb3abe55f30",
+      "id" : "io.vertx:vertx-core:3.7.1",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "a1f331124ba069a09e964ad2640c36f140f2c758",
+      "md5" : "19fad5e426dc1d788edc28bc4c59c122",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "e24bd38de28a326cce8b1f0d61e809e9a92dad6a",
+      "md5" : "fedf2a47b36c4ab890c958450edb5655",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib:1.3.41",
+      "scopes" : [ "compileClasspath", "kotlinCompilerClasspath", "runtimeClasspath", "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "42b5a57a4bb895f4489a724cdc9e454bc5afe108",
+      "md5" : "56c00df38ef44fbe942180bc2db23e7a",
+      "id" : "io.netty:netty-handler-proxy:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "66268942ed80beadaf6802e2fcf8983eef4fb7ec",
+      "md5" : "5f5d7876b5a1efbcb64267f98b8de8dd",
+      "id" : "io.netty:netty-codec-http2:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "02887d87fbc1b057657348f61dc538f7296daf79",
+      "md5" : "0c9a870401b6bd60bb132b03c4cbdc26",
+      "id" : "io.netty:netty-codec-http:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "96169098bebda3d1432f5421c338958063b3da52",
+      "md5" : "21ef74035b5a174d7851760fe0546d06",
+      "id" : "io.netty:netty-handler:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0ca536138bcc44997354cdd102933656f65f56c7",
+      "md5" : "fd5cc928108f7bc6e7a1eabc0b1803a5",
+      "id" : "io.netty:netty-resolver-dns:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "345a10b91e4876cb6ec642a3c010ca187f361fa0",
+      "md5" : "4216f7c46ca07ae3aae7ed49a0017d02",
+      "id" : "io.netty:netty-codec-socks:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "40352df88786faf68901fa01b0c51baafcad5115",
+      "md5" : "c4d3be2cf5a10076d495841befb8e58c",
+      "id" : "io.netty:netty-codec-dns:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0cb53baf46cc55768f2e28d15cde399063555ea8",
+      "md5" : "9a3da08d20c00621aa87e43e5a214b56",
+      "id" : "io.netty:netty-codec:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f57be6509efa6766d90e537a775930101f26b35c",
+      "md5" : "a41e7c79bf7fc4168b30ecd68cc9d3a1",
+      "id" : "io.netty:netty-transport:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8afc2027eadc7848127553ebb490ea0e2b199d4e",
+      "md5" : "e10338dd4250e5f678827bedd027f0f0",
+      "id" : "io.netty:netty-buffer:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "528789e98eef519960a56e44569ecb2260782fd7",
+      "md5" : "381a52171823250944811b9e719de872",
+      "id" : "io.netty:netty-resolver:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "2dffa21967d36cae446b6905bd5fb39750fcba43",
+      "md5" : "590ea88dcb41fdbd82eb7ef5e8e28ed2",
+      "id" : "io.netty:netty-common:4.1.34.Final",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "11283f21cc480aa86c4df7a0a3243ec508372ed2",
+      "md5" : "39271d9bb1cb7ec563925953b1fa9ff7",
+      "id" : "com.fasterxml.jackson.core:jackson-databind:2.9.8",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "0f5a654e4675769c716e5b387830d19b501ca191",
+      "md5" : "65831e4f46f29db904708e4b9cc72843",
+      "id" : "com.fasterxml.jackson.core:jackson-core:2.9.8",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "54b5c06e39b69a88eb14f64b2423feaaefed3bbd",
+      "md5" : "704ae50d6339a7e542d1b9e3c2afd0c7",
+      "id" : "io.vertx:vertx-bridge-common:3.7.1",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "2ecf4aa059427d7186312fd1736afedf7972e7f7",
+      "md5" : "5f798908084bcf2ac9121a9442175c79",
+      "id" : "org.jetbrains.kotlin:kotlin-stdlib-common:1.3.41",
+      "scopes" : [ "compileClasspath", "kotlinCompilerClasspath", "runtimeClasspath", "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9",
+      "md5" : "f4fb462172517b46b6cd90003508515a",
+      "id" : "org.jetbrains:annotations:13.0",
+      "scopes" : [ "compileClasspath", "kotlinCompilerClasspath", "runtimeClasspath", "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "07c10d545325e3a6e72e06381afe469fd40eb701",
+      "md5" : "c09faa1b063681cf45706c6df50685b6",
+      "id" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+      "scopes" : [ "compileClasspath", "runtimeClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "6b1d4385d65894e07a0d14a5949f5417a408f0b7",
+      "md5" : "9b2e24c9da4bea1b7c5eb73db4edc121",
+      "id" : "org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.41",
+      "scopes" : [ "kotlinCompilerClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8fb58b8954661de666e321478bf4178c18ce8018",
+      "md5" : "16a75d060259111f2b9c8d51c24b8764",
+      "id" : "org.jetbrains.kotlin:kotlin-reflect:1.3.41",
+      "scopes" : [ "kotlinCompilerClasspath", "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "bcc3380041bbba171119c22d7024961b60da69e0",
+      "md5" : "7aedc81900898aa336efea0e231437ae",
+      "id" : "org.jetbrains.kotlin:kotlin-script-runtime:1.3.41",
+      "scopes" : [ "kotlinCompilerClasspath", "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "216c2e14b070f334479d800987affe4054cd563f",
+      "md5" : "5cc726d08f3d05f7a7cadd4c20c2de78",
+      "id" : "org.jetbrains.intellij.deps:trove4j:1.0.20181211",
+      "scopes" : [ "kotlinCompilerClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "1bf2a35bd4101f1d564a012cc06fc143a3838c45",
+      "md5" : "b42b0f4323124d6bc9dc9bb146b590bb",
+      "id" : "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.3.41",
+      "scopes" : [ "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "72ca23f83fda53378cf9c7581d799038e44cefd4",
+      "md5" : "bdb155684841fe2f0ffe8e33c78b436f",
+      "id" : "org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.3.41",
+      "scopes" : [ "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "5fe615a9cf0ae74bd99f302c2cdc92556ea960ea",
+      "md5" : "a4d1d91e2f2f28b6e094558a9895f194",
+      "id" : "org.jetbrains.kotlin:kotlin-scripting-jvm:1.3.41",
+      "scopes" : [ "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f5200923717f821267ed450728e13680b9065f2e",
+      "md5" : "45c11c15ec82ea3fa47557890253c1a6",
+      "id" : "org.jetbrains.kotlin:kotlin-scripting-common:1.3.41",
+      "scopes" : [ "kotlinCompilerPluginClasspath" ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86",
+      "md5" : "461aa5da3569a08d9e3e9423191d86b8",
+      "id" : "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1",
+      "scopes" : [ "kotlinCompilerPluginClasspath" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
